@@ -1,0 +1,120 @@
+body {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: 1700px 1200px;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.big {
+    border: 20px solid #333;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 26%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.updateForm {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#copo {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 1000px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.error {
+    font-weight: bolder;
+    color: #dc3545;
+    font-style: italic;
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+div>div {
+    margin-bottom: 15px;
+}
+
+div>div>div {
+    margin-bottom: 10px;
+}
+
+#copo th,
+#copo td {
+    width: 60px;
+    text-align: center;
+    padding: 8px;
+}
+
+#copo select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div>div {
+    margin-bottom: 15px;
+}
+
+div>div>div {
+    margin-bottom: 10px;
+}

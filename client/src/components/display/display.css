@@ -1,0 +1,10 @@
+.userTable{
+    width: 100%;
+    border-radius: 20px;
+    color: rgb(74, 55, 55);
+    padding-left: 20px;
+    font-weight: bolder;
+    align-items: center;
+    font-size: large;
+    
+}
